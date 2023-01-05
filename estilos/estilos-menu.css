@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+    height: 80px;
+    padding: 20px;
+}
+.logo{
+    text-transform: uppercase;
+    float: left;
+    font-weight: bold;
+}
+#amarillo{
+    color: yellow;
+}
+#azul{
+    color: blue;
+}
+#rojo{
+    color: red;
+}
+.logo a{
+    text-decoration: none;
+    color: white
+}
+.logo span{
+    color: black;
+}
+.barra{
+    float: right;
+    text-transform: none;
+    font-size: 26px;
+}
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+.barra ul li a{
+    text-decoration: none;
+    color: white;
+}
+.barra :hover{
+    color:#333;
+}
+main{
+    height: calc(100vh - 80px) ;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    background-size: cover;
+}
+.lista{
+    color: #fff;
+    width: 70 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float   : left;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid orange;
+    margin: 40px;
+    padding: 20px;
+}
+.lista ol{
+    font-size: 30px;
+    margin: 30px;
+    padding-left: 10px;
+}
+.lista ol ul{
+    list-style: none;
+    padding-left: 15px;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 20px;
+    flex-direction: bottom;
+}
+footer p{
+    margin-bottom: 10px;
+}
+footer i{
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: #333;
+}

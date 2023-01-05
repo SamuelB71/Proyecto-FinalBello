@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+    height: 80px;
+    padding: 20px;
+}
+.logo{
+    text-transform: uppercase;
+    float: left;
+    font-weight: bold;
+}
+#amarillo{
+    color: yellow;
+}
+#azul{
+    color: blue;
+}
+#rojo{
+    color: red;
+}
+.logo a{
+    text-decoration: none;
+    color: white
+}
+.logo span{
+    color: black;
+}
+.barra{
+    float: right;
+    text-transform: none;
+    font-size: 26px;
+}
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+.barra ul li a{
+    text-decoration: none;
+    color: white;
+}
+.barra :hover{
+    color:#333;
+}
+main{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-image: url(../multimedia/portada.jpg);
+    background-size: cover;
+}
+.texto{
+    color: #fff;
+    width:60 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid orange;
+    margin: 40px;
+    padding: 20px;
+}
+.texto h1{
+    color:orange;
+    margin-bottom:20px;
+}
+.texto p{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.texto a{
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.texto a:hover{
+    background-color: #333;
+    border: 2px dashed ;
+}
+.lista{
+    color: #fff;
+    width: 70 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid orange;
+    margin: 40px;
+    padding: 20px;
+}
+.lista h3{
+    color: orange;
+}
+.lista ul{
+    margin: 10px;
+    list-style: none;
+}
+.lista a{
+    color: white;
+    text-decoration: none;
+}
+.lista a:hover{
+    background-color: #333;
+    border: 2px dashed ;
+}
+.sec{
+    background-color: black;
+    text-align: center;
+    text-transform:uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+}
+#pabellonCriollo{
+    height: 650px;
+    width: 100%;
+    background-image: url(../multimedia/pabellon-criollo.webp);
+    background-size:cover;
+
+}
+#hallacas{
+    height: 650px;
+    width: 100%;
+    background-image: url(../multimedia/hallaca.webp);
+    background-size: cover;
+}
+#panDeJamon{
+    height: 650px;
+    width: 100%;
+    background-image: url(../multimedia/pandejamon.webp);
+    background-size: cover;
+}
+#patacon{
+    height: 650px;
+    width: 100%;
+    background-image: url(../multimedia/patacon.jpg);
+    background-size: cover;
+}
+#arepas{
+    height: 650px;
+    width: 100%;
+    background-image: url(../multimedia/arepas.jpg);
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 20px;
+}
+footer p{
+    margin-bottom: 10px;
+}
+footer i{
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: #333;
+}
