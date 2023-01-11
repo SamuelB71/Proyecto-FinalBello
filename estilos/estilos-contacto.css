@@ -3,75 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    font-size: 20px;
-    height: 80px;
-    padding: 20px;
-}
-.logo{
-    text-transform: uppercase;
-    float: left;
-    font-weight: bold;
-}
-#amarillo{
-    color: yellow;
-}
-#azul{
-    color: blue;
-}
-#rojo{
-    color: red;
-}
-.logo a{
-    text-decoration: none;
-    color: white
-}
-.logo span{
-    color: black;
-}
-.barra{
-    float: right;
-    text-transform: none;
-    font-size: 26px;
-}
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-}
-.barra ul li a{
-    text-decoration: none;
-    color: white;
-}
-.barra :hover{
-    color:#333;
+.navbar{
+    background-color: orange;
 }
 main{
-    height: calc(100vh - 80px) ;
-    width: 100%;
+    
     background-color: rgb(15, 15, 15);
-    background-size: cover;
 }
 .formularios{
     color: #fff;
-    width:60 ;
+    width: fit-content;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float: left;
     background-color: rgba(0, 0, 0, 0.7);
     border: 5px solid orange;
-    margin: 40px;
+    margin: 30px;
     padding: 20px;
 }
 .contacto{
     color: #fff;
-    width:60 ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float: right;
+    height: fit-content;
+    width: fit-content ;
     background-color: rgba(0, 0, 0, 0.7);
     border: 5px solid orange;
-    margin: 40px;
+    margin: 30px;
     padding: 20px;
 }
 .contacto p{
@@ -93,10 +47,10 @@ main{
     font-size: 30px;
 }
 footer{
-    background-color: black;
+    background-color: orange;
     color: #fff;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: capitalize;
     padding: 20px;
@@ -105,7 +59,24 @@ footer p{
     margin-bottom: 10px;
 }
 footer i{
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 10px;
-    color: #333;
+    color: #000;
+}
+@media only screen and (max-width: 700px) {
+    footer{
+        font-size: 25px;
+    }
+    footer p{
+        margin-bottom: 3px;
+    }
+    footer i{
+        font-size: 35px;
+    }
+    .texto{
+        border: 3px solid orange;
+    }
+    .texto p{
+        font-size:20px ;
+    }
 }

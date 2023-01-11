@@ -4,54 +4,12 @@
     box-sizing: border-box;
 
 }
-
-header{
-    background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+.navbar{
+    background-color: rgb(209, 136, 0);
     font-size: 20px;
-    height: 80px;
-    padding: 20px;
-}
-.logo{
-    text-transform: uppercase;
-    float: left;
-    font-weight: bold;
-}
-#amarillo{
-    color: yellow;
-}
-#azul{
-    color: blue;
-}
-#rojo{
-    color: red;
-}
-.logo a{
-    text-decoration: none;
-    color: white
-}
-.logo span{
-    color: black;
-}
-.barra{
-    float: right;
-    text-transform: none;
-    font-size: 26px;
-}
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-}
-.barra ul li a{
-    text-decoration: none;
-    color: white;
-}
-.barra :hover{
-    color:#333;
 }
 main{
-    height: calc(100vh - 80px) ;
+    height: 100vh;
     width: 100%;
     background-color: rgb(15, 15, 15);
     background-size: cover;
@@ -63,11 +21,11 @@ main{
     float   : left;
     background-color: rgba(0, 0, 0, 0.7);
     border: 5px solid orange;
-    margin: 40px;
+    margin: 25px;
     padding: 20px;
 }
 .lista ol{
-    font-size: 30px;
+    font-size: 28px;
     margin: 30px;
     padding-left: 10px;
 }
@@ -76,8 +34,8 @@ main{
     padding-left: 15px;
 }
 footer{
-    background-color: black;
-    color: #fff;
+    background-color: orange;
+    color: #000;
     text-align: center;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -91,5 +49,22 @@ footer p{
 footer i{
     font-size: 50px;
     letter-spacing: 10px;
-    color: #333;
+    color: #000;
+}
+@media only screen and (max-width: 700px) {
+    footer{
+        font-size: 25px;
+    }
+    footer p{
+        margin-bottom: 3px;
+    }
+    footer i{
+        font-size: 35px;
+    }
+    .texto{
+        border: 3px solid orange;
+    }
+    .texto p{
+        font-size:20px ;
+    }
 }
