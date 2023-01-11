@@ -1,6 +1,0 @@
-<div class="texto foto">
-            <p>Somos una pequeña empresa de varios amigos que tuvieron siempre la idea de crear un restaurante de la comida de su pais </p>
-        </div>
-        <div class="texto foto">
-            <p>Nuestra meta e traer la comida de nuestro pais a todo el mundo</p>
-        </div>
