@@ -1,82 +1,104 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.navbar{
-    background-color: orange;
+
+.navbar {
+  background-color: rgb(209, 136, 0);
+  font-size: 20px;
 }
-main{
-    
-    background-color: rgb(15, 15, 15);
+.navbar .titulo {
+  font-size: 30px;
 }
-.formularios{
-    color: #fff;
-    width: fit-content;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 5px solid orange;
-    margin: 30px;
-    padding: 20px;
+
+main {
+  background-color: rgb(15, 15, 15);
 }
-.contacto{
-    color: #fff;
-    height: fit-content;
-    width: fit-content ;
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 5px solid orange;
-    margin: 30px;
-    padding: 20px;
+
+.formularios {
+  color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 5px solid orange;
+  margin: 30px;
+  padding: 20px;
 }
-.contacto p{
-    font-size: 30px;
+
+.contacto {
+  color: #fff;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 5px solid orange;
+  margin: 30px;
+  padding: 20px;
 }
-.email{
-    font-size: 30px ;
+
+.contacto p {
+  font-size: 30px;
 }
-.input-texto{
-    font-size: 20px;
+
+.email {
+  font-size: 30px;
 }
-.input-bottom{
-    font-size: 20px;
-    color: white;
-    background-color: orange;
-    border: 5px white;
+
+.input-texto {
+  font-size: 20px;
 }
-.comentarios{
-    font-size: 30px;
+
+.input-bottom {
+  font-size: 20px;
+  color: white;
+  background-color: orange;
+  border: 5px white;
 }
-footer{
-    background-color: orange;
-    color: #fff;
-    text-align: center;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: capitalize;
-    padding: 20px;
+
+.comentarios {
+  font-size: 30px;
 }
-footer p{
-    margin-bottom: 10px;
+
+footer {
+  background-color: rgb(209, 136, 0);
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  padding: 20px;
 }
-footer i{
-    font-size: 40px;
-    letter-spacing: 10px;
-    color: #000;
+
+footer p {
+  margin-bottom: 10px;
 }
+
+footer i {
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: #000;
+}
+
 @media only screen and (max-width: 700px) {
-    footer{
-        font-size: 25px;
-    }
-    footer p{
-        margin-bottom: 3px;
-    }
-    footer i{
-        font-size: 35px;
-    }
-    .texto{
-        border: 3px solid orange;
-    }
-    .texto p{
-        font-size:20px ;
-    }
-}
+  footer {
+    font-size: 25px;
+  }
+  footer p {
+    margin-bottom: 3px;
+  }
+  footer i {
+    font-size: 35px;
+  }
+  .texto {
+    border: 3px solid orange;
+  }
+  .texto p {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=estilos-contacto.css.map */

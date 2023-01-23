@@ -1,69 +1,85 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.navbar{
-    background-color: orange;
+
+.navbar {
+  background-color: rgb(209, 136, 0);
+  font-size: 20px;
 }
-main{
-    background-color: rgb(15, 15, 15);
+.navbar .titulo {
+  font-size: 30px;
 }
-.texto{
-    color: #fff;
-    width:60 ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float: left;
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 5px solid orange;
-    margin: 40px;
-    padding: 20px;
+
+main {
+  background-color: rgb(15, 15, 15);
 }
-.presentacion{
-    padding: 20px;
+
+.texto {
+  color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 5px solid orange;
+  margin: 40px;
+  padding: 20px;
 }
-img{
-    height: 200px;
-    width: 180px;
+
+.presentacion {
+  padding: 20px;
 }
-.info{
-    border: 5px solid orange;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    text-align: center;
+
+img {
+  height: 200px;
+  width: 180px;
 }
-footer{
-    background-color: orange;
-    color: #000;
-    text-align: center;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: capitalize;
-    padding: 20px;
-    flex-direction: bottom;
+
+.info {
+  border: 5px solid orange;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
 }
-footer p{
-    margin-bottom: 10px;
+
+footer {
+  background-color: rgb(209, 136, 0);
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  padding: 20px;
+  flex-direction: bottom;
 }
-footer i{
-    font-size: 50px;
-    letter-spacing: 10px;
-    color: #000;
+
+footer p {
+  margin-bottom: 10px;
 }
+
+footer i {
+  font-size: 50px;
+  letter-spacing: 10px;
+  color: #000;
+}
+
 @media only screen and (max-width: 700px) {
-    footer{
-        font-size: 25px;
-    }
-    footer p{
-        margin-bottom: 3px;
-    }
-    footer i{
-        font-size: 35px;
-    }
-    .texto{
-        border: 3px solid orange;
-    }
-    .texto p{
-        font-size:20px ;
-    }
-}
+  footer {
+    font-size: 25px;
+  }
+  footer p {
+    margin-bottom: 3px;
+  }
+  footer i {
+    font-size: 35px;
+  }
+  .texto {
+    border: 3px solid orange;
+  }
+  .texto p {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=estilos-nosotros.css.map */
